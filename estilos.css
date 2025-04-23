@@ -14,56 +14,92 @@ body{
     background-color:#950144 ;
     color: white;
     text-decoration: none;
-    display: flex;
+    
     
 }
 /*NAV*/
-nav{
+nav {
     width: 100%;
     display: flex;
-    text-align: center;
     justify-content: center;
 }
-nav,ul,li,a{
-    color: white;
-    text-decoration: none;
+nav ul {
+    list-style: none;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
     justify-content: center;
     gap: 70px;
-    margin: 7px;
-    
+    padding: 10px;
+    margin: 0;
 }
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: color 0.3s;
+}   
 
 /*Seccion*/
-.incio{
+.inicio {
+    background-color: #950144;
+    background-size: cover;
     color: white;
     height: 100vh;
     display: flex;
     align-items: center;      
-}
+  }
 .inicio .contenido-banner{
-    padding: 20px;
-    background-color:#950144 ;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    color: #ffff;
-    height: 100vh;
-    display: flex;
+    padding: 2px;
+    background-color: #69002F;
+    margin: auto;
+    max-width: 80%;
+    border-radius: 90px;
 }
-.contenedor-img{
-    display: flex;
+.inicio .contenido-banner .contenedor-img{
     flex-direction: row;
     text-align: center;
     align-items: center;
+    margin-top: 20px;
 }
-img{
-    width: 60vh;
-    border-radius: 40px;
-    
+.inicio .contenido-banner .contenedor-img img{
+    margin-top: 10px;
+    border: 5px solid #fff;
+    display: block;
+    box-shadow: 0 0 40px #ffff;
+    border-radius: 90%;
+    margin: auto;
+    width: 45vh;
+    height: auto;
 }
-h1,h2{
-    font-size: 20px;
+.inicio .contenido-banner h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 25px;
+    color: #ffff;
+    margin-left: 10px;
+}
+.inicio .contenido-banner h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #ffff;
+}
+.inicio .contenido-banner .redes {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+      
+}
+.inicio .contenido-banner .redes a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
 }
