@@ -36,3 +36,34 @@ nav,ul,li,a{
     margin: 7px;
     
 }
+
+/*Seccion*/
+.incio{
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;      
+}
+.inicio .contenido-banner{
+    padding: 20px;
+    background-color:#950144 ;
+    margin: auto;
+    text-align: center;
+    color: #ffff;
+    height: 100vh;
+    display: flex;
+}
+.contenedor-img{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+img{
+    width: 60vh;
+    border-radius: 40px;
+    
+}
+h1,h2{
+    font-size: 20px;
+}
