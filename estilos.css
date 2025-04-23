@@ -131,14 +131,32 @@ nav ul li a {
     justify-content: center;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
 }
-.contenido-skill .tabla-skills {
-    justify-content: center;
+.titulo-skills {
     text-align: center;
-    width: 10px;
-    
-
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+  }
+.contenido-skill {
+    display: flex;
+    justify-content: center;
 }
-.contenido-skill .tabla-skills .iconos img{
-    width: 120px;
+.tabla-skills {
+    border-collapse: collapse;
+}
+.tabla-skills td {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.tabla-skills img {
+    width: 90px;
     height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+.tabla-skills p{
+    margin: 0;
+    font-size: 15px;
 }
