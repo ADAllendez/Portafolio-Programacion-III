@@ -1,4 +1,33 @@
+
 body{
     margin: 0;
     padding: 0;
+    font-family: "Press Start 2P", system-ui;
+    
+}
+/*Menu*/
+.header-container{
+    display: flex;
+    background-color: #950144;
+    display: flex;
+}
+.header{
+    background-color:#950144 ;
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+/*NAV*/
+nav{
+    display: flex;
+
+}
+nav,ul,li,a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 20px;
 }
