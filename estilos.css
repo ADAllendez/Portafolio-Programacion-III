@@ -7,27 +7,32 @@ body{
 }
 /*Menu*/
 .header-container{
-    display: flex;
     background-color: #950144;
-    display: flex;
+    width: 100%;
 }
 .header{
     background-color:#950144 ;
     color: white;
     text-decoration: none;
     display: flex;
+    
 }
 /*NAV*/
 nav{
+    width: 100%;
     display: flex;
-
+    text-align: center;
+    justify-content: center;
 }
 nav,ul,li,a{
     color: white;
     text-decoration: none;
     display: flex;
+    flex-direction: row;
     align-items: center;
     text-align: center;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: center;
+    gap: 70px;
+    margin: 7px;
+    
 }
