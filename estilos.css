@@ -47,17 +47,17 @@ nav ul li a {
     background-color: #62022D;
     border-radius: 10px;
     max-width: 100vh;
+    gap: 30px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
 }
 .inicio .contenedor-img{
     padding-top: 20px;
 }
 .inicio .contenido-banner .contenedor-img img{
     border: 2px solid #fff;
-    display: block;
     box-shadow: 0 0 10px #ffff;
-    border-radius: 90%;
-    margin: auto;
-    width: 400px;
+    border-radius: 10%;
+    width: 50%;
 
 }
 .inicio .contenido-banner h1{
@@ -86,9 +86,33 @@ nav ul li a {
     height: 40px;
     margin-bottom: 32px;
 }
-.sobre-mi{
-    display: flex;
-    justify-content: center;
+.contenido-banner-sobremi{
+    margin: auto;
     text-align: center;
+    background-color: #62022D;
+    border-radius: 10px;
+    max-width: 1000px;
+    padding: 40px;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+    
+}
+.contenedor-img-sobremi img{
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px #ffff;
+    border-radius: 10%;
+}
+
+.contenido-banner-sobremi p {
     color: #fff;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+    word-spacing: -1px;
+    line-height: 1.5;     
+    max-width: 400px;
 }
