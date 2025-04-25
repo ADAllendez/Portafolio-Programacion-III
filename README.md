@@ -1,7 +1,7 @@
-# 🌐 Proyecto GitHub Pages - Portfolio Personal
+# 🌐 Proyecto GitHub Pages - Portfolio Personal (Programacion III)
 
 Este repositorio contiene una **página web estática** desarrollada solo con **HTML** y **CSS** 🎨🖥️.  
-Su objetivo es funcionar como **presentación personal, CV y portfolio** de proyectos 💼🚀.
+Su objetivo es practicar y funcionar como **presentación personal, CV y portfolio** de proyectos 💼🚀.
 
 ## 📋 Requisitos cumplidos
 - ✅ Más de **15 commits** 🔥
